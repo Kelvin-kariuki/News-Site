@@ -59,11 +59,11 @@
 	padding: 50px 60px 40px;
 	overflow: hidden;
 }
-section {
+.head-er {
   width: 100%;
   display: inline-block;
   background: #ccc;
-  height: 60vh;
+  /* height: 60vh; */
   text-align: center;
   font-size: 22px;
   font-weight: 700;
