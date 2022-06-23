@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 120vh;
+}
+.navbar{
+    display: flex;
+    background: rgba(114, 121, 115, 0.5);
+    justify-content: space-between;
+    padding: 30px;
+    list-style-type: none;
+}
+.navbar .logo{
+    padding-left: 60px;
+    color: white;
+    
+}
+.navbar > .links > ul{
+    display: inline;
+    padding-top: 10px;
+    font-size: 24px;
+}
+.navbar > .links > ul > a >li{
+    display: inline-block;
+    padding: 10px;
+    color: white; 
+}
+/* li::after{
+    box-shadow: inset 100px 0 0 0 rgba(76, 175, 80, 0.9);
+  color: white;
+
+} */
+/* .navbar > .nav-btn {
+  padding: 0px 50px;
+  
+} */
+.navbar > .nav-btn > a > li > #btn-1{
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-items: center;
+    background-color: rgb(45, 200, 163);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+
+/* Start of footer Section */
+.f-main{
+	background: #444;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+	text-align: left;
+	padding: 50px 60px 40px;
+	overflow: hidden;
+}
+section {
+  width: 100%;
+  display: inline-block;
+  background: #ccc;
+  height: 60vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+
+/* Footer left */
+
+.f-main .footer-left{
+	float: left;
+}
+
+.f-main h3{
+	color:  #ffffff;
+	font: normal 36px 'Roboto', cursive;
+	margin: 0 0 10px;
+}
+
+.f-main h3 span{
+	color:  #5383d3;
+}
+/* Footer Right */
+
+.f-main .footer-right{
+	float: right;
+}
+
+.f-main .footer-right p{
+	display: inline-block;
+	vertical-align: top;
+	margin: 15px 42px 0 0;
+	color: #ffffff;
+}
+/* The contact form */
+
+.f-main form{
+	display: inline-block;
+}
+
+.f-main form input,
+.f-main form textarea{
+	display: block;
+	border-radius: 3px;
+	box-sizing: border-box;
+	background-color:  #1f2022;
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+	border: none;
+	resize: none;
+
+	font: inherit;
+	font-size: 14px;
+	font-weight: normal;
+	color:  #d1d2d2;
+
+	width: 400px;
+	padding: 18px;
+}
+.f-main form input{
+	height: 55px;
+	margin-bottom: 15px;
+}
+
+.f-main form textarea{
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+.f-main form button{
+	border-radius: 3px;
+	background-color:  #33383b;
+	color: #ffffff;
+	border: 0;
+	padding: 15px 50px;
+	font-weight: bold;
+	float: right;
+}
+@media (max-width: 1000px) {
+
+	.f-main {
+		font: bold 14px sans-serif;
+	}
+
+	.f-main .footer-company-name{
+		font-size: 12px;
+	}
+
+	.f-main form input,
+	.f-main form textarea{
+		width: 250px;
+	}
+
+	.f-main form button{
+		padding: 10px 35px;
+	}
+
+}
+
+@media (max-width: 800px) {
+
+	.f-main{
+		padding: 30px;
+	}
+
+	.f-main .footer-left,
+	.f-main.footer-right{
+		float: none;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.f-main .footer-left{
+		margin-bottom: 40px;
+	}
+
+	.f-main form{
+		margin-top: 30px;
+	}
+
+	.f-main form{
+		display: block;
+	}
+
+	.f-main form button{
+		float: none;
+	}
+}
+
+
