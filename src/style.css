@@ -94,6 +94,9 @@
 .f-main .footer-right{
 	float: right;
 }
+#c-title {
+	text-align: center;
+}
 
 .f-main .footer-right p{
 	display: inline-block;

@@ -11,11 +11,11 @@ fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9e96a68fba
       html+=`
       <div id="c-main">
       <h2 id="c-title">${item.title}</h2>
-      <h3 id="cDescription">${item.source.name}</h3>
-      <p id="c-author">${item.author}</p>
+      
+      <h4 id="cDescription">${item.description}</h4>
       <img src="${item.urlToImage}" alt="url"/>
-    
       <p id="c-name">${item.content}</p>
+      <p id="c-auth">Author: ${item.author}<br>Date Published: ${item.publishedAt}</p>
     </div>`
 
     })
