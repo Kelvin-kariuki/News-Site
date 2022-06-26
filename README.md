@@ -4,7 +4,7 @@
 ## Description
 This is a simple project that gets public API news and updates it on the browser.
 
-Technology used is HTML,CSS and javaScript.
+Later in the future the project will include a search bar  and a better footer with contact to all social sites
 
 ## Setup/Installation Requirements
 To access this project on your local files, you can clone it using these steps
