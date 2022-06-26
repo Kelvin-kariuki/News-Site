@@ -105,7 +105,10 @@ img{
 	justify-content: center;
 	align-items: center;
 	display: flex;
-	border: 2px solid red;
+	/* border: 2px solid red; */
+}
+#c-name{
+	margin: 10px;
 }
 
 .f-main .footer-right p{
