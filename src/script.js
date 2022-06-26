@@ -11,7 +11,6 @@ fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9e96a68fba
       html+=`
       <div id="c-main">
       <h2 id="c-title">${item.title}</h2>
-
       <h4 id="cDescription">${item.description}</h4>
       <center><img id="cImage"src="${item.urlToImage}" alt="url"/></center>
       <p id="c-name">${item.content}<a href "${item.url}">Read more </a></p>
