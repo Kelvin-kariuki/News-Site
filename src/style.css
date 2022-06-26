@@ -110,6 +110,12 @@ img{
 #c-name{
 	margin: 10px;
 }
+#c-auth{
+	padding-bottom: 20px;
+	margin: 10px;
+	font-style: italic;
+	text-decoration: underline;
+}
 
 .f-main .footer-right p{
 	display: inline-block;
