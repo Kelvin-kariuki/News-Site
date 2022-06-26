@@ -97,6 +97,9 @@
 #c-title {
 	text-align: center;
 	padding-bottom: 10px;
+	text-transform: capitalize;
+	font-size: 36px;
+	
 }
 #cDescription {
 	padding: 10px;
