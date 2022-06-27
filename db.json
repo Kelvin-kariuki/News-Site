@@ -1,19 +1,136 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Taylor Hatmaker",
+  "title": "Robinhood almost imploded during the Gamestop meme stock chaos",
+  "description": "The House Committee on Financial Services released a report late last week offering a harrowing glimpse inside Robinhood during the frenzy around Gamestop stock early last year. The stock trading and investing app was blindsided by the surge in interest from …",
+  "url": "https://techcrunch.com/2022/06/27/robinhood-report-meme-stock-gamestop/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1234275430.jpg?w=684",
+  "publishedAt": "2022-06-27T20:50:51Z",
+  "content": "The House Committee on Financial Services released a report late last week offering a harrowing glimpse inside Robinhood during the frenzy around Gamestop stock early last year.\r\nThe stock trading an… [+3972 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Stefanie Waldek",
+  "title": "At NASA's Lunabotics competition, students design mining robots for the moon",
+  "description": "If this year’s Lunabotics competition is any indication, there’s a bright future ahead for the surface of the moon — and below it. The NASA-hosted challenge saw 39 teams of university students building lunar mining robots, which were tasked with digging up ro…",
+  "url": "https://techcrunch.com/2022/06/27/at-nasas-lunabotics-competition-students-design-mining-robots-for-the-moon/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/06/luna_1.jpeg?w=600",
+  "publishedAt": "2022-06-27T20:48:02Z",
+  "content": "If this year’s Lunabotics competition is any indication, there’s a bright future ahead for the surface of the moon and below it.\r\nThe NASA-hosted challenge saw 39 teams of university students buildin… [+2349 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Manish Singh",
+  "title": "Google backs Progcap, a startup delivering working capital to small retailers in India",
+  "description": "The investment is part of a $40 million fresh funding Progcap has raised, said the startup, which also counts Tiger Global and Sequoia India among backers.",
+  "url": "https://techcrunch.com/2022/06/27/google-invests-progcap-india-working-capital-small-retailers/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-520120864.jpg?w=616",
+  "publishedAt": "2022-06-27T20:43:14Z",
+  "content": "Google has invested in Progcap, an Indian startup that provides working capital to small and medium-sized businesses, the firms said Tuesday, making a new push into a category that has attracted the … [+3061 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Kirsten Korosec",
+  "title": "Rivian is turning on the first EV fast chargers in its adventure network",
+  "description": "Rivian will open this week three EV fast charging sites in California and Colorado as part of the automaker’s bid to build out an “adventure” network along interstates as well as locations near recreational activities aligned with its customer base. The first…",
+  "url": "https://techcrunch.com/2022/06/27/rivian-is-turning-on-the-first-ev-fast-chargers-in-its-adventure-network/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/03/rivian-image-social.jpg?w=764",
+  "publishedAt": "2022-06-27T20:33:50Z",
+  "content": "Rivian will open this week three EV fast charging sites in California and Colorado as part of the automaker’s bid to build out an “adventure” network along interstates as well as locations near recre… [+2322 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Jacquelyn Melinek",
+  "title": "FTX says no active talks to buy Robinhood",
+  "description": "SBF praises Robinhood, hints at possible partnerships",
+  "url": "https://techcrunch.com/2022/06/27/ftx-says-no-active-talks-to-buy-robinhood/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1357912811.jpeg?w=600",
+  "publishedAt": "2022-06-27T20:22:46Z",
+  "content": "Crypto exchange FTX is open to partnering with Robinhood Markets, its CEO Sam Bankman-Fried said in a statement shared with TechCrunch.\r\nBloomberg News reported earlier that people familiar with the … [+1702 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Rebecca Bellan",
+  "title": "Tesla will go back to court for racial discrimination lawsuit",
+  "description": "After former Tesla worker rejected $15M payout, down from jury-awarded $137M, a judge has ordered a new trial.",
+  "url": "https://techcrunch.com/2022/06/27/tesla-will-go-back-to-court-for-racial-discrimination-lawsuit/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2020/03/GettyImages-980337816.jpg?w=600",
+  "publishedAt": "2022-06-27T20:12:38Z",
+  "content": "Owen Diaz, a former elevator operator at Tesla’s Fremont factory who accused the company of racial discrimination, will once again face off against the automaker in court. After Diaz and his lawyers … [+1551 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Aisha Malik",
+  "title": "Meta introduces Instagram Reels APIs for developers",
+  "description": "Meta announced today that it’s introducing Reels APIs to several endpoints on the Instagram Platform for developers starting tomorrow. The company says it’s introducing the new Reels APIs after hearing from its developer community that Reels is a top priority…",
+  "url": "https://techcrunch.com/2022/06/27/meta-instagram-reels-apis-developers/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/11/facebook-meta-rotate-pattern.jpg?w=711",
+  "publishedAt": "2022-06-27T20:01:14Z",
+  "content": "Meta announced today that it’s introducing Reels APIs to several endpoints on the Instagram Platform for developers starting tomorrow. The company says it’s introducing the new Reels APIs after heari… [+2956 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Jacquelyn Melinek",
+  "title": "This crypto winter may be long, but builders remain bullish",
+  "description": "Many of the top digital assets in the cryptocurrency market are down significantly, but some market participants are shrugging it off and focusing on the long game.",
+  "url": "https://techcrunch.com/2022/06/27/this-crypto-winter-may-be-long-but-builders-remain-bullish/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-1332847846.jpg?w=718",
+  "publishedAt": "2022-06-27T19:51:24Z",
+  "content": "Many of the top digital assets in the cryptocurrency market are down significantly, but some market participants are shrugging it off and focusing on the long game.\r\nThe top five cryptocurrencies by … [+1318 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Sarah Perez, Zack Whittaker",
+  "title": "Period tracker Stardust surges following Roe reversal, but its privacy claims aren't airtight",
+  "description": "The current version of the app shares a user's phone number with an analytics firm",
+  "url": "https://techcrunch.com/2022/06/27/stardust-period-tracker-phone-number/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/06/stardust-app-ios.jpg?w=710",
+  "publishedAt": "2022-06-27T19:36:42Z",
+  "content": "Period tracking app Stardust surged to the top of the U.S. Apple App Store in the wake of the Supreme Courts decision to overturn Roe v. Wade after the app promised it will encrypt its users private … [+7478 chars]"
+  },
+  {
+  "source": {
+  "id": "techcrunch",
+  "name": "TechCrunch"
+  },
+  "author": "Sarah Perez",
+  "title": "Consumers swap period tracking apps in search of increased privacy following Roe v. Wade ruling",
+  "description": "Consumers are ditching their current period tracking apps in favor of what they perceive to be safer options in the wake of the Supreme Court’s Roe v. Wade decision that allows individual U.S. states to criminalize abortion. The app switching trend is impacti…",
+  "url": "https://techcrunch.com/2022/06/27/consumers-swap-period-tracking-apps-in-search-of-increased-privacy-following-roe-v-wade-ruling/",
+  "urlToImage": "https://techcrunch.com/wp-content/uploads/2022/05/period-tracker-app.jpg?w=711",
+  "publishedAt": "2022-06-27T19:36:24Z",
+  "content": "Consumers are ditching their current period tracking apps in favor of what they perceive to be safer options in the wake of the Supreme Court’s Roe v. Wade decision that allows individual U.S. states… [+5385 chars]"
   }
-}
+  ]
+  }

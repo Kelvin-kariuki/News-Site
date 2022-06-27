@@ -2,9 +2,11 @@ document.addEventListener("DOMContentLoaded",function(){
     // console.log("The DOM has loaded")
    
 })
-let url = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9e96a68fba5c46d0a65ef2d1823fd1d1"
+const baseUrl = "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9e96a68fba5c46d0a65ef2d1823fd1d1"
+const proxyUrl = "https://cors-anywhere.herokuapp.com/"
+const url =  `${proxyUrl}${baseUrl}`;
 function article (){
-fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9e96a68fba5c46d0a65ef2d1823fd1d1')
+fetch("https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9e96a68fba5c46d0a65ef2d1823fd1d1")
   .then(response => response.json())
   .then(data => {
     let html = " ";
@@ -27,5 +29,7 @@ article()
   // Later on to add an event listener for the submit button
   // Adding a search bar
 
-
+  // fetch('https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=9e96a68fba5c46d0a65ef2d1823fd1d1')
+  // .then(response => response.json())
+  // .then(data => console.log(data));
 
