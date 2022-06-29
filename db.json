@@ -1,4 +1,6 @@
 {
+  "articles":
+  {
   "status": "ok",
   "totalResults": 10,
   "articles": [
@@ -134,3 +136,4 @@
   }
   ]
   }
+}
